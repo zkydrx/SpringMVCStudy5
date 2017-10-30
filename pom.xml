@@ -64,6 +64,34 @@
       <artifactId>commons-logging</artifactId>
       <version>1.2</version>
     </dependency>
+
+
+
+
+    <!-- 这一个的作用跟下面两个jar的作用一样。 -->
+    <!--&lt;!&ndash; https://mvnrepository.com/artifact/javax.servlet/jstl &ndash;&gt;-->
+    <!--<dependency>-->
+      <!--<groupId>javax.servlet</groupId>-->
+      <!--<artifactId>jstl</artifactId>-->
+      <!--<version>1.2</version>-->
+    <!--</dependency>-->
+
+<!--  jstl-api 和jstl-impl 这两个一起使用效果和直接使用javax.servlet效果一样都可以正确的引入jstl标签。  -->
+     <!--https://mvnrepository.com/artifact/org.glassfish.web/jstl-impl-->
+    <dependency>
+      <groupId>org.glassfish.web</groupId>
+      <artifactId>jstl-impl</artifactId>
+      <version>1.2</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl-api -->
+    <dependency>
+      <groupId>javax.servlet.jsp.jstl</groupId>
+      <artifactId>jstl-api</artifactId>
+      <version>1.2</version>
+    </dependency>
+
+
   </dependencies>
 
   <properties>
