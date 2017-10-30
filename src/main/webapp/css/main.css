@@ -1,0 +1,52 @@
+#global{
+    text-align:left;
+    border:1px solid #de7820;
+    background: #afefb9;
+    width:560px;
+    padding:20px;
+    margin:100px auto;
+}
+
+form{
+    font:100% "Source Code Pro Medium";
+    min-width:500px;
+    max-width:600px;
+    width:560px;
+}
+
+form fieldset{
+    border-color: #0705bf;
+    border-width:3px;
+    margin:0;
+}
+
+legend {
+    font-size:1.3em;
+}
+
+form label{
+    width:250px;
+    display: block;
+    float: left;
+    text-align: right;
+    padding:2px;
+}
+
+table td{
+    border:1px solid #de7820;
+    background: mistyrose;
+    /* for web colors visit http://en.wikipedia.org/wiki/Web_colors*/
+}
+
+#buttons{
+    text-align: right;
+}
+
+#errors,li{
+    color: red;
+}
+
+.error{
+    color:red;
+    font-size:9pt;
+}

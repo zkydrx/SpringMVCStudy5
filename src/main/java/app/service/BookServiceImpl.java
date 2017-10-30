@@ -40,9 +40,6 @@ public class BookServiceImpl implements BookService
     }
     public List<Category> getAllCategories()
     {
-
-
-
         return categories;
     }
 
