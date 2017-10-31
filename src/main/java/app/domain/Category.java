@@ -27,10 +27,6 @@ public class Category implements Serializable
         this.name = name;
     }
 
-    public static long getSerialVersionUID()
-    {
-        return serialVersionUID;
-    }
 
     public int getId()
     {
@@ -51,4 +47,5 @@ public class Category implements Serializable
     {
         this.name = name;
     }
+
 }

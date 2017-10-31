@@ -6,12 +6,14 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html charset=utf-8">
     <title>Add Book Form</title>
-    <style type="text/css">@import url(../../css/main.css);</style>
+    <style type="text/css">@import url("<c:url value="/css/main.css"/>");</style>
+    <%--<link rel="stylesheet" type="text/css" href="/css/main.css" charset="UTF-8">--%>
 </head>
 <body>
 <div id="global">
@@ -20,19 +22,18 @@
             <legend>Add a book</legend>
             <p>
                 <label for="category">Category:</label>
-                <form:select path="category.id" id="category"
-                    items="${categories}" itemlabel="name"
-                    itemvalue="id"/>
+                <form:select id="category" path="category.id"
+                    items="${categories}" itemLabel="name" itemValue="id"/>
             </p>
 
             <p>
                 <label for="title">Title:</label>
-                <form:input path="title" id="title"/>
+                <form:input id="title" path="title" />
             </p>
 
             <p>
                 <label for="author">Author:</label>
-                <form:input path="author" id="author"/>
+                <form:input id="author" path="author" />
             </p>
 
             <p>
@@ -42,7 +43,7 @@
 
             <p id="buttons">
                 <input type="reset" id="reset" tabindex="4"/>
-                <input type="submit" id="submit" tabindex="5"/>
+                <input type="submit" id="submit" tabindex="5" value="Add Book"/>
             </p>
         </fieldset>
     </form:form>

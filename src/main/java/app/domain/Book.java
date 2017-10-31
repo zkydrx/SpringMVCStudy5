@@ -32,10 +32,6 @@ public class Book implements Serializable
         this.author = author;
     }
 
-    public static long getSerialVersionUID()
-    {
-        return serialVersionUID;
-    }
 
     public long getId()
     {

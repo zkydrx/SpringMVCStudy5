@@ -50,7 +50,7 @@ public class BookController
         return "BookEditForm";
     }
 
-    @RequestMapping(value = "/book_save")
+    @RequestMapping(value = "/book_save" )
     public String saveBook(@ModelAttribute Book book)
     {
         Category category = bookService.getCategory(book.getCategory().getId());
@@ -67,7 +67,7 @@ public class BookController
         Category category = bookService.getCategory(book.getCategory().getId());
         book.setCategory(category);
         bookService.update(book);
-        return "rdirect:/book_list";
+        return "redirect:/book_list";
     }
 
 
