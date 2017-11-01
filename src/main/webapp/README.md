@@ -3,7 +3,7 @@
   - 主要是表单和标签的练习
   - 依然是基于注解形式的。
 - 启动项目会自动定位到静态资源index.html
-  - 请求地址http://localhost:8080/book_list到达页面1 如图image目录中的1.png.
+  - 请求地址http://localhost:8080/book_list 到达页面1 如图image目录中的1.png.
   - 其他的在image目录中的2.png,3.png,4.png,5.png,6.png,7.png 分别是对应操作的截图
   他们的共同点就是都没有样式设置原因是放在webapp中的css中的SpringMVCStudy5.css无法加载到页面。
     - 尝试了以下几种方法只有一种办法可行。
