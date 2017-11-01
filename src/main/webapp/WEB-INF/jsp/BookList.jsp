@@ -18,61 +18,61 @@
 
 
     <%-- only this way can load css successful. --%>
-    <%--<style type="text/css">--%>
-        <%--#global{--%>
-            <%--text-align:left;--%>
-            <%--border:1px solid #23de0e;--%>
-            <%--background: #ff0028;--%>
-            <%--width:560px;--%>
-            <%--padding:200px;--%>
-            <%--margin:100px auto;--%>
-        <%--}--%>
+    <style type="text/css">
+        #global{
+            text-align:left;
+            border:1px solid #23de0e;
+            background: #ff0028;
+            width:560px;
+            padding:200px;
+            margin:100px auto;
+        }
 
-        <%--form{--%>
-        <%--font:100% "Source Code Pro Medium";--%>
-        <%--min-width:900px;--%>
-        <%--max-width:1000px;--%>
-        <%--width:950px;--%>
-        <%--}--%>
+        form{
+        font:100% "Source Code Pro Medium";
+        min-width:900px;
+        max-width:1000px;
+        width:950px;
+        }
 
-        <%--form fieldset{--%>
-        <%--border-color: #0705bf;--%>
-        <%--border-width:3px;--%>
-        <%--margin:0;--%>
-        <%--}--%>
+        form fieldset{
+        border-color: #0705bf;
+        border-width:3px;
+        margin:0;
+        }
 
-        <%--legend {--%>
-        <%--font-size:1.3em;--%>
-        <%--}--%>
+        legend {
+        font-size:1.3em;
+        }
 
 
-        <%--form label{--%>
-        <%--width:450px;--%>
-        <%--display: block;--%>
-        <%--float: left;--%>
-        <%--text-align: right;--%>
-        <%--padding:2px;--%>
-        <%--}--%>
+        form label{
+        width:450px;
+        display: block;
+        float: left;
+        text-align: right;
+        padding:2px;
+        }
 
-        <%--table td{--%>
-        <%--border:1px solid #de7820;--%>
-        <%--background: #ff5140;--%>
-        <%--/* for web colors visit http://en.wikipedia.org/wiki/Web_colors*/--%>
-        <%--}--%>
+        table td{
+        border:1px solid #de7820;
+        background: #ff5140;
+        /* for web colors visit http://en.wikipedia.org/wiki/Web_colors*/
+        }
 
-        <%--#buttons{--%>
-            <%--text-align: right;--%>
-        <%--}--%>
+        #buttons{
+            text-align: right;
+        }
 
-        <%--#errors,li{--%>
-        <%--color: red;--%>
-        <%--}--%>
+        #errors,li{
+        color: red;
+        }
 
-        <%--.error{--%>
-        <%--color:red;--%>
-        <%--font-size:9pt;--%>
-        <%--}--%>
-    <%--</style>--%>
+        .error{
+        color:red;
+        font-size:9pt;
+        }
+    </style>
 </head>
 <body>
 <div id="global">
